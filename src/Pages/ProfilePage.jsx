@@ -36,7 +36,7 @@ const markAttendance = () => {
   if (selectedDate) {
 
       const selectedDateUTC = new Date(selectedDate.toUTCString());
-      axios.post("http://localhost:9002/ProfilePage", { email: email, selectedDate: selectedDateUTC })
+      axios.post("https://attenback-1.onrender.com/ProfilePage", { email: email, selectedDate: selectedDateUTC })
           .then(res => {
               console.log("Selected date added to backend:", res.data);
              
