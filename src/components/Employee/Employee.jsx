@@ -31,7 +31,7 @@ const Employee = () => {
   const register = () => {
     const {name, email,password, reTypePassword} = user
     if(name && email && password && password === reTypePassword){
-      axios.post("http://localhost:9002/employee", user)
+      axios.post("https://attenback-1.onrender.com/employee", user)
       .then( res =>{
         
         console.log(res.data)
