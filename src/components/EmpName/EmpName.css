@@ -1,0 +1,34 @@
+.react-calendar__tile--active:enabled,
+.react-calendar__tile--active:enabled:active,
+.react-calendar__tile--active:enabled:focus,
+.react-calendar__tile--active:enabled:hover {
+  background-color: rgba(246, 10, 49, 0.859);
+}
+
+/* .react-calendar__tile--active:enabled:hover {
+  background-color: black;
+} */
+
+.react-calendar__tile--active {
+  position: relative;
+}
+
+.selected-marker {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px; /* Adjust the height of the line as needed */
+  background-color: black;
+}
+.btn{
+    background-color: rgb(222, 39, 69);
+    text-decoration: solid;
+    width: 100px;
+    height:50px;
+    margin-top: 10px;
+    margin-left: 125px;
+    text-align: center;
+    text-decoration-color: black;
+    
+}
